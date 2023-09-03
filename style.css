@@ -97,6 +97,22 @@
   #buttons>button>i{
       font-size: 17px;
   }
+  #buttons2{
+      position: absolute;
+      left: 0%;
+      bottom: 18%;
+      height: 20%;
+      width: 100%;
+  }
+  #buttons2>button{
+      padding: 10px 22px ;
+      border-radius: 10px;
+      border: none;
+      font-weight: 500;
+  }
+  #buttons2>button>i{
+      font-size: 17px;
+  }
   #buttons>#b1{
       margin-left: 20px;
       background-color: #8873EF;
@@ -105,6 +121,19 @@
       margin-left: 20px;
       background-color: #8873EF;
   }
+  #buttons>#b5{
+      margin-left: 20px;
+      background-color: #8873EF;
+  }
+  #buttons>#b6{
+      margin-left: 20px;
+      background-color: #8873EF;
+  }
+  #buttons2>#b7{
+      margin-left: 20px;
+      background-color: #8873EF;
+  }
+  
   #page1{
       position: relative;
       height: 100vh;
@@ -119,12 +148,21 @@
       transform: translateY(-50%);
       width: 35%;
   }
+  #page1>#right3{
+      position: absolute;
+      left: 5%;
+      height: 50%;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 35%;
+  }
+  
   #left>.box{
       display: flex;
       align-items: center;
       justify-content: space-between;
       padding: 0px 20px;
-      height: 33.3%;
+      height: 25%;
       width: 100%;
       border-top: 2px solid #000;
   }
@@ -133,6 +171,28 @@
   }
   #left>.box>h1{
       font-size: 50px;
+  }
+  #left>.box>h3{
+      font-size: 20px;
+  }
+
+  #right3>.box{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0px 20px;
+      height: 25%;
+      width: 100%;
+      border-top: 2px solid #000;
+  }
+  #right3>.box>h4{
+      font-size: 30px;
+  }
+  #right3>.box>h1{
+      font-size: 50px;
+  }
+  #right3>.box>h3{
+      font-size: 20px;
   }
   .circle{
       display: flex;
@@ -188,7 +248,7 @@
       align-items: center;
       justify-content: space-between;
       height: 50%;
-      width: 90%;
+      width: 100%;
       position: absolute;
       left: 50%;
       transform: translateX(-50%);
@@ -208,7 +268,7 @@
       width: 100%;
   }
   #image{
-      height: 70%;
+      height: 60%;
       width: 100%;
   }
   #image>img{
